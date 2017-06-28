@@ -3,7 +3,7 @@ public class Solution{
     public static void main(String args[]){
         //TODO
     }
-    public void sort(int arr[]){
+    public void insertionSort(int arr[]){
         int n = arr.length;
         for(int i = 1;i<=n-1;i++){
             int key = arr[i];
